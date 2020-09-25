@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card-body" id="one">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4825f9df-ce88-4886-be46-b7f5f1102c6a/кроссовки-air-force-1-07-lv8-ng2WcP.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/090fb8d0-0237-494b-9ef8-0bf7f5ee239c/кроссовки-air-force-1-07-lv8-ng2WcP.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6ce521df-ec25-4ea0-94d2-df7dc89f6087/кроссовки-air-force-1-07-lv8-ng2WcP.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cb3561c4-3326-4ce6-be66-8df01c844195/кроссовки-air-force-1-07-lv8-ng2WcP.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              Nike Air Force 1 '07 LV8
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Reiciendis autem reprehenderit dicta tempore
+              fuga! Nisi sequi similique facere maiores voluptas?
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              8 499 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          // centerMode: true,
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+    <div class="card-body" id="two">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/a00db4f1-9748-4658-953c-affa1a11b888/кроссовки-air-jordan-1-low-se-XVfXwm.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4f9de58e-a157-498d-aa46-28cf55590074/кроссовки-air-jordan-1-low-se-XVfXwm.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/37e1689c-f06c-4a22-a673-7706d0632459/кроссовки-air-jordan-1-low-se-XVfXwm.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/bee7fb30-b5b7-4193-8b1d-25df406ec185/кроссовки-air-jordan-1-low-se-XVfXwm.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              Air Jordan 1 Low SE
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Reiciendis autem reprehenderit dicta tempore
+              fuga! Nisi sequi similique facere maiores voluptas? Lorem ipsum,
+              dolor sit amet consectetur adipisicing elit. Iste, cumque?
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              9 699 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+    <div class="card-body" id="three">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/8c1cc891-576b-4fd3-b60b-e617b980065f/кроссовки-air-max-270-react-eng-mQFTHs.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e8b58629-04b1-46a4-a6ad-9370c8639338/кроссовки-air-max-270-react-eng-mQFTHs.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9e099a49-5278-4f4b-98af-cf717f40c42e/кроссовки-air-max-270-react-eng-mQFTHs.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5566f58b-5477-4296-b14e-d7be93624baf/кроссовки-air-max-270-react-eng-mQFTHs.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              Nike Air Max 270 React ENG
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Reiciendis autem reprehenderit dicta tempore
+              fuga! Nisi sequi similique facere maiores voluptas? Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Doloremque
+              reprehenderit dignissimos, explicabo delectus a voluptatum
+              doloribus, unde dolore tempora blanditiis, expedita facere aliquam
+              quo fugiat quod cumque laborum error ea. Provident hic rerum
+              quaerat sit molestias quo, neque, incidunt doloribus aspernatur
+              placeat est beatae odit et commodi similique, nulla a.
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              12 799 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+    <div class="card-body" id="four">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/1a21d694-5d37-477a-9cab-73391716d27b/беговые-кроссовки-air-zoom-pegasus-37-Z7QV8F.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cc4d1cbc-571e-483f-93fc-a4666e683341/беговые-кроссовки-air-zoom-pegasus-37-Z7QV8F.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ce6f78e2-2a81-4fe9-8e1e-a20f2a1197f9/беговые-кроссовки-air-zoom-pegasus-37-Z7QV8F.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0e4a33d5-a583-4d8d-9b62-e79961aebd51/беговые-кроссовки-air-zoom-pegasus-37-Z7QV8F.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              Nike Air Zoom Pegasus 37
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              9 299 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+    <div class="card-body" id="five">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/cb38a13e-efd0-476d-b401-c05996ce398d/теннисные-кроссовки-court-air-max-vapor-wing-premium-9Drs1s.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5d22fd7e-d1b9-4fce-88c6-7dcbc1740b35/теннисные-кроссовки-court-air-max-vapor-wing-premium-9Drs1s.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d5659e7b-1e53-42e2-89a4-50d3fa4459f0/теннисные-кроссовки-court-air-max-vapor-wing-premium-9Drs1s.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b7f8a242-97be-4ee5-a185-40c6ce6b4f16/теннисные-кроссовки-court-air-max-vapor-wing-premium-9Drs1s.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              NikeCourt Air Max Vapor Wing
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Reiciendis autem reprehenderit dicta tempore
+              fuga! Nisi sequi similique facere maiores voluptas?
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              12 999 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+    <div class="card-body" id="six">
+      <div id="selectableModal">
+        <div class="popup-inner">
+          <div class="popup-left">
+            <div class="popup-images-slider">
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cf42fe30-7c78-45b5-87bb-8ed11429faec/кроссовки-для-трейлраннинга-pegasus-trail-2-ZCfbql.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/3ecb7f95-263e-4620-875e-ce46ad5b4daa/кроссовки-для-трейлраннинга-pegasus-trail-2-ZCfbql.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/389cd25f-9d80-46c6-ae4d-1ff101baeaec/кроссовки-для-трейлраннинга-pegasus-trail-2-ZCfbql.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="popup-img">
+                <img
+                  src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b528bd9b-e678-4f4e-9dfd-30212754c1e6/кроссовки-для-трейлраннинга-pegasus-trail-2-ZCfbql.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-goods-info">
+            <h2 class="popup-goods-info__title" data-selectable="true">
+              Nike Pegasus Trail 2
+            </h2>
+            <p data-selectable="true" class="popup-goods-info__descr">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quia itaque optio, eligendi atque aliquam hic labore
+              magnam eius assumenda. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Reiciendis autem reprehenderit dicta tempore
+              fuga! Nisi sequi similique facere maiores voluptas?
+            </p>
+            <div class="popup-goods-info__price" data-selectable="true">
+              9 999 Р
+            </div>
+
+            <form class="order-form" action="">
+              <div class="order-input">
+                <input placeholder="Ваше имя" type="text" />
+              </div>
+              <div class="order-input">
+                <input placeholder="Вашa почта" type="mail" />
+              </div>
+              <button class="order-btn">Заказать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.popup-images-slider').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          mobileFirst: false,
+          draggable: false,
+          arrows: true,
+          prevArrow:
+            '<img class="prev-arrow" src="icons/chevron-thin-left.svg" >',
+          nextArrow:
+            '<img class="next-arrow" src="icons/chevron-thin-right.svg" >',
+          responsive: [
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                centerMode: false,
+                centerPadding: '100px',
+              },
+            },
+            {
+              breakpoint: 601,
+              settings: {
+                arrows: false,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 481,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        })
+      </script>
+    </div>
+  </body>
+</html>
